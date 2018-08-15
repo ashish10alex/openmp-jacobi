@@ -9,8 +9,8 @@ Speed up is defined as ratio of the serial runtime obtained under the best optim
 
 ## Serial code execution
 
-__gcc jacobi_serial.c -o serial.out__
+`gcc jacobi_serial.c -o serial.out`
 
-__./serial.out  'matrix size' 'matrix size'  'tolerance'__
+`./serial.out  'matrix size' 'matrix size'  'tolerance'`
 
 ![serial Implementation](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Serial_graph.PNG)
