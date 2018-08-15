@@ -47,4 +47,9 @@ Progressive speedup can be visualized by running the following
 
 `./omp_2.out <matrix size> <matrix size> <tolerance>`
 
-![optimized_parallel](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Pspeed.PNG)
+![optimized_parallel](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/optimized_stats.png)
+
+
+![optimized_parallel](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/optimized%20parallel.png)
+
+
