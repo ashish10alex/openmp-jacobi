@@ -35,6 +35,7 @@ The above code prints out matrices obtained from both serial and parallel implem
 Progressive speedup can be visualized by running the following
 
 `gcc -fopenmp Pspeed.c -o speed.out`
+
 `./speed.out <matrix size> <matrix size> <tolerance>` 
 
 ![Progressive speedup](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Pspeed.PNG)
