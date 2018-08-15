@@ -13,4 +13,4 @@ __gcc jacobi_serial.c -o serial.out__
 
 __./serial.out  <matrix size> <matrix size>  <tolerance>__
 
-![stack Overflow](http://lmsotfy.com/so.png)
+![stack Overflow](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Serial_graph.PNG)
