@@ -15,3 +15,10 @@ Speed up is defined as ratio of the serial runtime obtained under the best optim
 `./serial.out 200 200 0.0001`
 
 ![serial Implementation](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Serial_graph.PNG)
+
+
+### Parallel code validation 
+
+The above code prints out matrices obtained from both serial and parallel implementations with the execution times for each. Validation has been performed at this stage for various problem sizes and 1,2,3,4 threads. The same script substracts the resultant parallel output from serial output and gives the values for the same as shown in figure below.
+
+![Parellel code validation](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/parallel_validation.PNG)
