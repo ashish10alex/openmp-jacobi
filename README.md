@@ -7,7 +7,7 @@ The main aim of this project is concentrated at computing the speedup achieved w
 Speed up is defined as ratio of the serial runtime obtained under the best optimization and algorithmic conditions to the time taken by the parallel version of the code to solve the same problem with certain number of processors.    
 
 
-## Serial code execution
+### Serial code execution
 
 `gcc jacobi_serial.c -o serial.out`
 
@@ -31,7 +31,7 @@ The above code prints out matrices obtained from both serial and parallel implem
 ![Parellel code validation](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/parallel_validation.PNG)
 
 
-## Progressive Speedup
+### Progressive Speedup
 Progressive speedup can be visualized by running the following
 
 `gcc -fopenmp progressive_speedup.c -o speed.out`
@@ -41,7 +41,7 @@ Progressive speedup can be visualized by running the following
 ![Progressive speedup](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Pspeed.PNG)
 
 
-## Optimized Parallel version 
+### Optimized Parallel version 
 
 `gcc -fopenmp jacobi_optimized.c -o omp_2.out`
 
