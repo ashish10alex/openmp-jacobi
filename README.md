@@ -43,9 +43,9 @@ Progressive speedup can be visualized by running the following
 
 ## Optimized Parallel version 
 
-`gcc -fopenmp jacobi_omp2.c -o omp_2.out`
+`gcc -fopenmp jacobi_optimized.c -o omp_2.out`
 
-`./omp_2.out <matrix size> <matrix size> <tolerance>`
+`./omptimized.out <matrix size> <matrix size> <tolerance>`
 
 ![optimized_parallel](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/optimized_stats.png)
 
