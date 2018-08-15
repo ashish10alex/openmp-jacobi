@@ -21,4 +21,8 @@ Speed up is defined as ratio of the serial runtime obtained under the best optim
 
 The above code prints out matrices obtained from both serial and parallel implementations with the execution times for each. Validation has been performed at this stage for various problem sizes and 1,2,3,4 threads. The same script substracts the resultant parallel output from serial output and gives the values for the same as shown in figure below.
 
+`gcc -fopenmp jacobi_parallel_validation.c -o test.out`
+
+`./test.out <matrix size> <matrix size> <tolerance> < threads > `
+
 ![Parellel code validation](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/parallel_validation.PNG)
