@@ -39,3 +39,11 @@ Progressive speedup can be visualized by running the following
 `./speed.out <matrix size> <matrix size> <tolerance>` 
 
 ![Progressive speedup](https://github.com/ashish10alex/openmp-jacobi/blob/master/images/Pspeed.PNG)
+
+
+Optimized Parallel version can be complied and executed using
+
+`gcc -fopenmp jacobi_omp2.c -o omp_2.out`
+
+`./omp_2.out <matrix size> <matrix size> <tolerance>`
+
